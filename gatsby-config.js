@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Wall Breaker Blog',
+    author: 'Vitalii (avorona) Parshykov',
+    description: 'A blog about coding, life and so on',
+    siteUrl: 'https://avorona.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/wallbreaker',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -47,6 +47,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-typography',
       options: {
