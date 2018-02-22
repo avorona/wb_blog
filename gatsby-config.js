@@ -3,7 +3,7 @@ module.exports = {
     title: 'Wall Breaker Blog',
     author: 'Vitalii (avorona) Parshykov',
     description: 'A blog about coding, life and so on',
-    siteUrl: 'https://avorona.github.io/',
+    siteUrl: 'http://wallbr.surge.sh/',
   },
   pathPrefix: '/wallbreaker',
   plugins: [
